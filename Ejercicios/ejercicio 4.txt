@@ -1,0 +1,19 @@
+
+1.Inicio
+2. (vendedores(2),x(200)[{1-10},{A-Z},{a-z},{BS}])
+3. (ventas(2)(5), d [0-n])
+4. suma, d [0-n]
+5. vendedores[1]<-- Robert Wallace
+6. vendedores[0] <-- Jessica Cole
+7. nombres(x)(200)[{1-10},{A-Z},{a-z},{BS}] <--- ""
+8.Para (fila <-- 0 ,  fila < 2, 1) haga
+9.  Para(columna <--0 , columna < 5, 1) haga 
+10.  Escribir "Ingrese la venta del dia" 
+11.  Leer ventas[fila][columna] 
+12.    suma= suma + ventas[fila][columna]
+13.    nombres = nombres + vendedores[fila]
+14.   Fin_para
+15.  Fin_para
+16. Escribir "Vendedor" + fila + nombres "Han realizado un total de" +suma + " en ventas."
+17. Fin
+
